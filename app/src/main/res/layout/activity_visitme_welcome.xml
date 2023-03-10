@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="666dp">
+
+        <ImageView
+            android:id="@+id/imgVisitMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/visit_me_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgVisitMe"
+            android:layout_centerHorizontal="true"
+            android:text="@string/visit_cambodia_with_me"
+            android:textColor="#817E7E"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableEnd="@drawable/ic_start_foreground"
+        android:paddingStart="25dp"
+        android:paddingEnd="15dp"
+        android:text="@string/get_started">
+
+    </Button>
+</RelativeLayout>
